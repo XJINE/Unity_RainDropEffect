@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: RainDrop
+  m_Shader: {fileID: 4800000, guid: ccd51e9c6cdbff8469ad5a9132d57c0b, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 31739ca606aa4004c8e4cc6b07a3db99, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Aspect: 4
+    - _Debug: 0
+    - _DebugT: 0
+    - _DropAspect: 0.45
+    - _DropDistortion: -5
+    - _DropSize: 0.1
+    - _DropSpeed: 0.25
+    - _DropSpeedGap: 7
+    - _DropWigglePower: 4
+    - _FoggyBlur: 5
+    - _Scale: 6.49
+    m_Colors: []
+  m_BuildTextureStacks: []
